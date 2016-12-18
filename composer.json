@@ -1,0 +1,14 @@
+{
+    "name": "maxlab/validator",
+    "license": "MIT",
+    "type": "component",
+    "description": "This is a simple, flexible, but powerful php library for validation",
+    "keywords": ["validator", "validation"],    
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.6",
+        "respect/validation": "1.1.*@stable"
+    }
+}
