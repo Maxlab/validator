@@ -134,7 +134,7 @@ array(3) {
 
 ```
 
-## В шаблонизаторе (twig)
+## In the templating engine (twig)
 ```twig
     
     {% if formerrors['addresses'][k]['city'] is defined %}
@@ -146,7 +146,7 @@ array(3) {
     
 ```
 
-## Обьяснение
+## Explanation
 As you can see, the simplicity and power of assignment rules make a regular expression. This feature eliminates the need to copy-paste rules and to describe each field separately. Also, this approach makes it more convenient to assign rules for nested data.
 Using regexps, you can do crazy things:
 - `\..*.email` - to providerwith all the data with a key `email` recursively
